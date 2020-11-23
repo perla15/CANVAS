@@ -26,7 +26,7 @@
 		if (canvas) {
 			var ctx=canvas.getContext('2d');
 
-			var grd =ctx.createLinearGradient(75,50,5,90,60,100);
+			var grd = ctx.createRadialGradient(75,50,5,90,60,100);
 			grd.addColorStop(0,"red");
 			grd.addColorStop(1,"white");
 
